@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Wolfteam | Fan Art</title>
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+	<link href="css/1140.css" rel="stylesheet" type="text/css">
+	<link href="css/custom.css" rel="stylesheet" type="text/css"
+	</head>
+<body>
+	<div id="container" class="container12">
+		<ul id="scene" class="scene">
+		<div class="cem">
+		<li class="layer" id="cem" data-depth="0.00"><img src="images/cem.png" ></li>
+		</div>
+		<div class="orta">
+		<li class="layer" id="orta" data-depth="0.04"><img src="images/orta.png" ></li>
+		</div>
+		<div class="sag">
+		<li class="layer" id="sag" data-depth="0.01"><img src="images/sag.png" ></li>
+		</div>
+		<div class="sol">
+		<li class="layer" id="sol" data-depth="0.01"><img src="images/sol.png" ></li>
+		</div>
+		</ul>
+</div>
+
+	<script src="deploy/parallax.min.js"></script>
+	<script>
+
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
+
+	</script>
+
+</body>
+</html>

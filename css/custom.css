@@ -1,0 +1,62 @@
+
+body,
+html{
+	min-height: 100%
+}
+
+body {
+	background-image:url(../images/bg.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	overflow: hidden;
+	
+}
+
+.cem {
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 800px 0 0 -100px;
+  }
+
+
+.orta {
+  width: 580px;
+  height: 168px;
+  padding: 20px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  margin: 370px 0 0 -290px;
+  }
+  
+.sag{
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  margin: 100px 0 0 250px;
+  }
+
+.sol{
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  margin: 100px 0 0 -900px;
+  }
+  
